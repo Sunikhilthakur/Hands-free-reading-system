@@ -44,6 +44,37 @@ A computer vision-based system that enables hands-free interaction through eye a
    pip install -r requirements.txt
    ```
 
+## Quick Start
+
+### On Windows:
+```batch
+venv\Scripts\activate
+python eye_detection_p1.py
+```
+
+### On macOS/Linux:
+```bash
+source venv/bin/activate
+python eye_detection_p1.py
+```
+
+### Run Different Phases:
+```bash
+# Phase 1: Eye Detection
+python eye_detection_p1.py
+
+# Phase 2: Eye Blinking Detection
+python p2/eye_blinking_detection_p2.py
+
+# Phase 3: Gaze-Controlled Keyboard (Version 1)
+python p3/gaze_controlled_keyboard_p3.py
+
+# Phase 4: Gaze-Controlled Keyboard (Version 2)
+python p4/gaze_controlled_keyboard_p4.py
+```
+
+**Exit**: Press `q` or `ESC` to quit any running script.
+
 ## Project Structure
 
 ```
